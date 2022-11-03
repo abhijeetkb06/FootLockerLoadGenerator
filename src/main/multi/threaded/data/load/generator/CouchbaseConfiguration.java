@@ -40,9 +40,9 @@ public class CouchbaseConfiguration {
 
 	// Collections name variables
 	public static String usersCollName = "users";
-//	public static String productsCollName = "products";
-//	public static String cartsCollName = "carts";
-//	public static String ordersCollName = "orders";
+	public static String productsCollName = "products";
+	public static String cartsCollName = "carts";
+	public static String ordersCollName = "orders";
 
 	static
 	{
@@ -50,9 +50,9 @@ public class CouchbaseConfiguration {
 		shoppingCartBucket = cluster.bucket(bucketName);
 		shoppingCartBucket.waitUntilReady(Duration.parse("PT10S"));
 		shoppingScope = shoppingCartBucket.scope(shoppingScopeName);
-		usersColl = shoppingScope.collection(usersCollName);
+//		usersColl = shoppingScope.collection(usersCollName);
 //		productsColl = shoppingScope.collection(productsCollName);
 //		cartsColl = shoppingScope.collection(cartsCollName);
-//		ordersColl = shoppingScope.collection(ordersCollName);
+		ordersColl = shoppingScope.collection(ordersCollName);
 	}
 }

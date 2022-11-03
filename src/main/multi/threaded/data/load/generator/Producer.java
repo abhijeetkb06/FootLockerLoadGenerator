@@ -34,7 +34,7 @@ public class Producer extends Thread {
 
 //                CouchbaseConfiguration.usersColl.upsert(user, content);
 
-                CouchbaseConfiguration.usersColl.upsert(user, content,
+                CouchbaseConfiguration.ordersColl.upsert(user, content,
                         UpsertOptions.upsertOptions().transcoder(RawJsonTranscoder.INSTANCE));
 
                 // the producer will add an element into the shared queue.

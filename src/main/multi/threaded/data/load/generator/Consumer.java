@@ -23,10 +23,10 @@ public class Consumer extends Thread {
 
 				// Remove the user from shared queue and process
 				String user = tasksQueue.take();
-				GetResult getResult =  CouchbaseConfiguration.usersColl.get(user);
+				GetResult getResult =  CouchbaseConfiguration.ordersColl.get(user);
 
-				String name = getResult.contentAsObject().getString("name");
-				System.out.println(name);
+//				String name = getResult.contentAsObject().getString("name");
+//				System.out.println(name);
 
 				System.out.println("TASK CONSUMED \n");
 				System.out.println(" Thread Name: " + Thread.currentThread().getName());
