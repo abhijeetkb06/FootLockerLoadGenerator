@@ -14,9 +14,9 @@ public class CouchbaseConfiguration {
 	public static String password = "Password@P1";
 
 	// Local connection
-//	public static String hostName = "127.0.0.1";
-//	public static String userName = "Administrator";
-//	public static String password = "password";
+/*	public static String hostName = "127.0.0.1";
+	public static String userName = "Administrator";
+	public static String password = "password";*/
 
 	// Cluster
 	public static Cluster cluster = null;

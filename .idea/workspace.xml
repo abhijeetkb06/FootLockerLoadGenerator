@@ -6,14 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="212b664e-f6f8-4644-9781-6f92cfa23810" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/LaunchLoadGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/LaunchLoadGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/multi/threaded/data/load/generator/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/multi/threaded/data/load/generator/Consumer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/multi/threaded/data/load/generator/CouchbaseConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/multi/threaded/data/load/generator/CouchbaseConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/multi/threaded/data/load/generator/Producer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/multi/threaded/data/load/generator/Producer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/LaunchLoadGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/LaunchLoadGenerator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/multi/threaded/data/load/generator/Consumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/multi/threaded/data/load/generator/Consumer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/multi/threaded/data/load/generator/CouchbaseConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/multi/threaded/data/load/generator/CouchbaseConfiguration.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/multi/threaded/data/load/generator/Producer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/multi/threaded/data/load/generator/Producer.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +73,7 @@
       <workItem from="1667236974670" duration="613000" />
       <workItem from="1667491416703" duration="300000" />
       <workItem from="1667491727498" duration="3920000" />
-      <workItem from="1667495665516" duration="697000" />
+      <workItem from="1667495665516" duration="6625000" />
     </task>
     <servers />
   </component>
