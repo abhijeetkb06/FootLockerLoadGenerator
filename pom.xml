@@ -3,9 +3,6 @@
     <groupId>CouchbaseDemo</groupId>
     <artifactId>CouchbaseDemo</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <build>
-        <sourceDirectory>src</sourceDirectory>
-    </build>
     <dependencies>
         <dependency>
             <groupId>com.couchbase.client</groupId>
@@ -18,4 +15,8 @@
             <version>2.13.3</version>
         </dependency>
     </dependencies>
+    <properties>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
+    </properties>
 </project>
