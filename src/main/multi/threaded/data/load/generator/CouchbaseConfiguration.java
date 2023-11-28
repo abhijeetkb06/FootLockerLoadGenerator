@@ -9,7 +9,7 @@ import java.time.Duration;
 
 public class CouchbaseConfiguration {
 
-	public static String hostName = "couchbases://cb.qe65anopcr7rtkj.cloud.couchbase.com";
+	public static String hostName = "couchbases://cb.hidqwndaitduwq8u.cloud.couchbase.com";
 	public static String userName = "abhijeet";
 	public static String password = "Password@P1";
 
